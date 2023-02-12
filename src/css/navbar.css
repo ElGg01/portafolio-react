@@ -1,0 +1,91 @@
+@import url("https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css");
+.observado {
+  opacity: 0;
+}
+
+.visible {
+  opacity: 1;
+}
+
+nav {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  padding: 0px 10px;
+  margin: 20px 0;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  min-height: 80px;
+  font-size: 20px;
+}
+nav div {
+  margin: 0 10px;
+}
+
+@font-face {
+  font-family: CloisterBlack;
+  src: url(../fonts/CloisterBlack.ttf);
+}
+#logo {
+  font-family: CloisterBlack;
+  font-size: 40px;
+}
+
+#logo:hover {
+  cursor: default;
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 0 10px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+nav i {
+  font-size: 25px;
+  vertical-align: middle;
+}
+
+#nav-links li:hover a {
+  color: #0081B4;
+}
+
+#redes li:hover {
+  transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  -o-transform: scale(1.5);
+  text-shadow: 1px 1px 2px black;
+}
+
+#github:hover {
+  color: whitesmoke;
+}
+
+#yt:hover {
+  color: red;
+}
+
+#linkedin:hover {
+  color: #2868B2;
+}
+
+@media (max-width: 662px) {
+  #logo {
+    font-size: 20px;
+  }
+}

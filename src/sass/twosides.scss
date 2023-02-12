@@ -1,0 +1,87 @@
+.contenedor-two {
+  display: flex;
+  margin-bottom: 20px;
+
+  div {
+    width: 50%;
+  }
+
+  .imagen {
+    img {
+      display: block;
+      margin: auto;
+      max-height: 300px;
+    }
+  }
+
+  .texto {
+    padding: 20px;
+    h1 {
+      text-align: right;
+    }
+    h2 {
+      text-align: right;
+      margin-bottom: 20px;
+      color: #0081B4;
+    }
+    p {
+      text-align: justify;
+    }
+    button {
+      display: block;
+      margin: 30px auto;
+      padding: 10px 30px;
+      font-size: 15px;
+      border-radius: 10px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -ms-border-radius: 10px;
+      -o-border-radius: 10px;
+      border: none;
+      background-color: #0081B4;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      transition: all 0.5s ease-in-out;
+      -webkit-transition: all 0.5s ease-in-out;
+      -moz-transition: all 0.5s ease-in-out;
+      -ms-transition: all 0.5s ease-in-out;
+      -o-transition: all 0.5s ease-in-out;
+}
+    button:hover {
+      background-color: white;
+      color: #0081B4;
+      letter-spacing: 1px;
+    }
+  }
+}
+
+.observado {
+  opacity: 0;
+}
+
+.visible {
+  opacity: 1;
+}
+
+@media (max-width: 1000px) {
+  .contenedor-two {
+    div {
+      width: 100%;
+    }
+    flex-direction: column;
+    align-items: center;
+    .texto {
+      p {
+        text-align: center;
+      }
+      h1 {
+        text-align: center;
+      }
+      h2 {
+        text-align: center;
+      }
+    }
+  }
+}
